@@ -15,17 +15,144 @@ body {
     height: 100vh; 
     font-family: 'PT Sans', sans-serif; 
     font-weight: 400;
-/* christopher-gower-289516-unsplash */ 
-    background-image:url(assets/demi-deherrera-84871-unsplash.jpg); 
+    background-image:url(assets/karl-fredrickson-35017-unsplash.jpg); 
     background-position: center; 
     background-size: cover; 
     background-repeat: no-repeat;
 }
 
 
-nav {
-    padding: 1vw; 
+.container {
+   
+    width: 100%;
+    height: 400vh;
+    background: transparent; 
 
+}
+
+.container-left {
+    background-image:url(assets/ben-kolde-593870-unsplash.jpg);
+    position: sticky; 
+    margin-top: 100vh; 
+    width: 50vw;
+    height: 100vh; 
+    top: 0;
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.container-right {
+    width: 100vw; 
+    height: 100vh; 
+    margin-top: -100vh; 
+    background-color: black; 
+    background-image:url(assets/nathan-dumlao-518271-unsplash.jpg);
+}
+
+.text-box {
+    padding: 5vw; 
+    background-color: white; 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200; 
+    text-align: center; 
+    letter-spacing: 1.2px; 
+    text-transform: uppercase;
+}
+
+.container-left .text-box {
+    margin-left: 12vw; 
+    display: inline; 
+}
+
+.container-right .text-box {
+    margin-left: 55vw; 
+    display: inline-block; 
+}
+
+.info-text-box {
+    display: inline-block; 
+    margin-left: 50vw;
+    margin-top: 10vh; 
+    width: 30vw;
+    height: 10vh;    
+    padding: 10vw; 
+    background-color: white; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px; 
+    text-align: justify; 
+   /* text-transform: uppercase; */
+
+}
+
+.menu{
+    width: 100vw; 
+    height: 50vh; 
+    margin-top: 0vh; 
+    margin-left: 0vw; 
+    background-color: white;
+    background-position: right; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-image:url(assets/jon-tyson-683735-unsplash.jpg);
+
+}
+
+.menu .text-box {
+    margin-left: 50vw; 
+    margin-top: -10vh; 
+    display: inline-block; 
+    text-align: left; 
+}
+
+.menu ul {
+    list-style: none; 
+
+}
+
+.bean .text-box {
+   display: inline-block; 
+   width: 10vw; 
+   padding: 5vw; 
+}
+
+.location {
+    width: 100vw; 
+    height: 100vh; 
+    margin-top: -20vh; 
+    background-color: white;
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-image:url(assets/jorgen-haland-130138-unsplash.jpg);
+}
+
+
+.location .text-box {
+    display: inline-block; 
+    margin-top: 90vh; 
+}
+
+
+nav {
+    position: sticky; 
+    padding: 1vw; 
+}
+
+button {
+    border: none; 
+    background: none; 
+    cursor: pointer;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw; 
+
+
+}
+
+button:focus{
+    outline: none; 
+    cursor: pointer;
 }
 
 .logo 
@@ -34,13 +161,14 @@ nav {
     padding: 1vw;
     margin-left: 2vw; 
     margin-top: 1vh; 
+    text-shadow: 1px 1px 1px black; 
+
 }
 
 .logo a {
     color: white; 
-    text-transform: uppercase; 
     font-weight: 700; 
-    font-size: 4vw; 
+    font-size: 5vw; 
     letter-spacing: 0px; 
     text-decoration: none; 
 }
@@ -48,6 +176,7 @@ nav {
 .logo a:hover {
 
     color: white; 
+    text-shadow: 1px 1px 1px black; 
 
 }
 /* navigation list menu starts here */ 
@@ -62,11 +191,11 @@ nav ul li {
 
 nav ul li:not(:first-child)
 {
-    margin-left: 48px; 
+    margin-left: 36px; 
 }
 
 nav ul li:last-child{
-    margin-right: 24px; 
+    margin-right: 48px; 
 }
 
 nav ul li a{
@@ -75,8 +204,21 @@ nav ul li a{
     font-size: 16px; 
     letter-spacing: 1.2px; 
     font-weight: 600; 
-    color: black; 
+    color: white; 
     text-decoration: none; 
+    text-shadow: 1px 1px 1px black; 
+    padding: 1vw; 
+}
+
+nav ul li a:hover {
+    display: inline-block; 
+    text-transform: uppercase;
+    font-size: 16px; 
+    letter-spacing: 1.2px; 
+    font-weight: 600; 
+    text-decoration: none; 
+    background-color: white; 
+    padding: 1vw; 
 }
 
 
